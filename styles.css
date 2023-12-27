@@ -1,23 +1,46 @@
-body{
-        background-color: #111;
-        margin: 0%;
-        pad: 0;
+.card:hover{
+        background-color: aqua;
+        box-shadow: 1px 1px 2px aqua, 0 0 25px aqua, 0 0 5px darkblue;
+        transition-duration: 0.5s;
+        
+}
+div{
+        margin: 0;
+        padding: 0;
+}
+#nav-image{
+        width: 60px;
+        padding-bottom: 8px;
+        padding-right: 12px;
+        height: auto; ;
 }
 .nav-link{
         color: white;
         font-size: 25px;
         }
+.nav-link:hover{
+        color: aqua;
+}
 .navbar{
         color: aqua;
+        text-shadow: 0px 0px 5px rgb(255, 255, 255);
 }
 .navbar-brand{
         color: #fff;
         font-size:  40px;
         font-family: Georgia;
 }
+.navbar-brand:hover{
+        color: whitesmoke;
+}
 .patterns {
         height: 100vh;
-}      
+}   
+body{
+        background-color: black;
+        margin: 0%;
+        pad: 0;
+}   
 svg text {
         font-family: Lora;
         letter-spacing: 10px;
@@ -41,7 +64,34 @@ svg text {
           stroke-dashoffstet: -20%;
           fill: hsla(189, 68%, 75%,0%)
  }}
+ .line{
+        color: #fff;
+        margin-left: 5%;
+        width:90% ;
+        height: 5px;
+ }
+h1{
+        color:#fff;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size :100px; ;
+        text-align: center;
+        text-shadow: 1px 1px 2px aqua, 0 0 25px aqua, 0 0 5px darkblue;
         
+}
+.card{
+        align-content: center;
+        display: inline-block;
+        background-color: #111;
+        border-radius: 0 0 10% 0;
+        box-shadow: 0px 0px 300px black;
+}
+
+#container-main{
+        float: left;
+        overflow: auto;
+        align-content: center;
+        
+}
 
 
       
