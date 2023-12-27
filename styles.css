@@ -1,17 +1,19 @@
 body{
-        background-color: #000000;
+        background-color: #111;
         margin: 0%;
         pad: 0;
 }
-
-#container{
-        
+.nav-link{
+        color: white;
+        font-size: 25px;
+        }
+.navbar{
+        color: aqua;
 }
-#header{
-
-}
-#footer{
-        
+.navbar-brand{
+        color: #fff;
+        font-size:  40px;
+        font-family: Georgia;
 }
 .patterns {
         height: 100vh;
@@ -41,6 +43,6 @@ svg text {
  }}
         
 
-      
+
       
       
