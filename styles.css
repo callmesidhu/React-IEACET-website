@@ -66,8 +66,8 @@ svg text {
  }}
  .line{
         color: #fff;
-        margin-left: 5%;
-        width:90% ;
+        margin-left: 2%;
+        width:96% ;
         height: 5px;
  }
 h1{
@@ -175,28 +175,28 @@ h1{
   z-index: 1000;
   opacity: 1;
   bottom: 0;
-  animation: animateWaves 4s linear infinite;
+  animation: animateWaves 3s linear infinite;
 }
 
 .wave#wave2 {
   z-index: 999;
   opacity: 0.5;
   bottom: 10px;
-  animation: animate 4s linear infinite !important;
+  animation: animate 6s linear infinite !important;
 }
 
 .wave#wave3 {
   z-index: 1000;
   opacity: 0.2;
   bottom: 15px;
-  animation: animateWaves 3s linear infinite;
+  animation: animateWaves 5s linear infinite;
 }
 
 .wave#wave4 {
   z-index: 999;
   opacity: 0.7;
   bottom: 20px;
-  animation: animate 3s linear infinite;
+  animation: animate 4s linear infinite;
 }
 
 @keyframes animateWaves {
@@ -216,10 +216,7 @@ h1{
     background-positon-x: 0px;
   }
 }
-
 .bottom-wave{
-        
+        height: 100%;
+        background-color: linear-gradient(rgba(255, 0, 0, 0), aqua);
 }
-
-      
-      
