@@ -1,101 +1,33 @@
+.ani{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 2px;
+  font-size: 7rem;
+}
+.ani:hover{
+  text-shadow: 0px 0px 50px #00ecfd;
+  font-size: 7.05rem;
+  transition-duration: .3s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.card-section{
+        width: 100%;
+        margin-bottom: 20%;     
+}
+.card-head{
+  text-shadow: 0px 0px 4px #00ffea;
+  margin-top: 15%;
+}
+.acada{
+  font-size: 6rem;
+}
 .card:hover{
-        background-color: aqua;
-        box-shadow: 1px 1px 2px aqua, 0 0 25px aqua, 0 0 5px darkblue;
-        transition-duration: 0.5s;
-        
-}
-div{
-        margin: 0;
-        padding: 0;
-}
-#nav-image{
-        width: 60px;
-        padding-bottom: 8px;
-        padding-right: 12px;
-        height: auto; ;
-}
-.nav-link{
-        color: white;
-        font-size: 25px;
-        }
-.nav-link:hover{
-        color: aqua;
-}
-.navbar{
-        color: aqua;
-        text-shadow: 0px 0px 5px rgb(255, 255, 255);
-}
-.navbar-brand{
-        color: #fff;
-        font-size:  40px;
-        font-family: Georgia;
-}
-.navbar-brand:hover{
-        color: whitesmoke;
-}
-.patterns {
-        height: 100vh;
-}   
-body{
-        background-color: black;
-        margin: 0%;
-        pad: 0;
-}   
-svg text {
-        font-family: Lora;
-        letter-spacing: 10px;
-        stroke: rgb(0, 225, 255);
-        font-size: 150px;
-        font-weight: 700;
-        stroke-width: 3;
-        animation: textAnimate 5s infinite alternate;
-}
-      
-@keyframes textAnimate {
-        0% {
-          stroke-dasharray: 0 50%;
-          stroke-dashoffset:  20%;
-          fill:#fff ;
-      
-}
-        
-        100% {
-          stroke-dasharray: 50% 0;
-          stroke-dashoffstet: -20%;
-          fill: hsla(189, 68%, 75%,0%)
- }}
- .line{
-        color: #fff;
-        margin-left: 2%;
-        width:96% ;
-        height: 5px;
- }
-h1{
-        color:#fff;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size :100px; ;
-        text-align: center;
-        text-shadow: 1px 1px 2px aqua, 0 0 25px aqua, 0 0 5px darkblue;
-        
-}
-.card{
-        align-content: center;
-        display: inline-block;
-        background-color: #111;
-        border-radius: 0 0 10% 0;
-        box-shadow: 0px 0px 300px black;
-}
-
-#container-main{
-        float: left;
-        overflow: auto;
-        align-content: center;
-        margin-bottom: 20%;
-        
+  background-color: #03a9f4;
+  transition-duration: .5s;
+  box-shadow: 0px 0px 5000px #03a9f4;
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
-* {
+.bottom-wave {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -216,7 +148,45 @@ h1{
     background-positon-x: 0px;
   }
 }
-.bottom-wave{
-        height: 100%;
-        background-color: linear-gradient(rgba(255, 0, 0, 0), aqua);
+
+.card-head{
+  text-align: center;
+  color: #0062f5;
+}
+.navbar{
+  background-color: #0062f5;
+}
+.logo{
+  height: 5rem;
+  width: auto;
+}
+.nav-link{
+  font-size: 1.5rem;
+}
+.nav-link-text:hover{
+  text-shadow: #03a9f4;
+}
+.navbar-brand{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.line{
+  color: #0062f5;
+  margin-left: 2%;
+  width:96% ;
+}
+
+
+.main-text-div{
+  height: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.sub{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
