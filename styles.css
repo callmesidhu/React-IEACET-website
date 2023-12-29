@@ -5,9 +5,8 @@
 }
 .ani:hover{
   text-shadow: 0px 0px 50px #00ecfd;
-  font-size: 7.05rem;
-  transition-duration: .3s;
-  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-duration: .5s;
+  transition-timing-function: linear;
 }
 .card-section{
         width: 100%;
