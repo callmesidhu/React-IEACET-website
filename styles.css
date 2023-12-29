@@ -1,3 +1,6 @@
+body{
+  padding:0%;
+}
 .ani{
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 2px;
@@ -10,7 +13,7 @@
 }
 .card-section{
         width: 100%;
-        margin-bottom: 20%;     
+        margin-bottom: 20%;   
 }
 .card-head{
   text-shadow: 0px 0px 4px #00ffea;
