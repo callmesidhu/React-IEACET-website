@@ -1,4 +1,5 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Cards from './Components/Cards';
 import Content from './Components/Content';
 import Footer from './Components/Footer';

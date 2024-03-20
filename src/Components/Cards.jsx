@@ -14,7 +14,7 @@ function Cards() {
     <img class="card-img-top" src={projects}  alt="Loading..."></img>
     <div class="card-body">
       <h5 class="card-title"></h5>
-      <a href="#" class="btn btn-primary">Get projects</a>
+      <button class="btn btn-primary">Get projects</button>
     </div>
   </div>
   <div class="card col-lg-3 col-sm-10 col-md-7 p-3 m-4 text-center">
@@ -22,14 +22,14 @@ function Cards() {
     <div class="card-body">
       <h5 class="card-title"></h5>
       <br></br>
-      <a href="#" class="btn btn-primary">Get notes</a>
+      <button class="btn btn-primary onclick={showPopup}" >Get notes</button>
     </div>
   </div>
   <div class="card col-lg-3 col-sm-10 col-md-7 p-3 m-4 text-center">
     <img class="card-img-top" src={assignments} alt="Loading..."></img>
     <div class="card-body">
       <h5 class="card-title"></h5>
-      <a href="#" class="btn btn-primary">Get assignments</a>
+      <button class="btn btn-primary">Get assignments</button>
     </div>
   </div>
 </div>
