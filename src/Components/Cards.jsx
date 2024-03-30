@@ -25,7 +25,7 @@ const popUp=()=>{
     <div class="card-body">
       <h5 class="card-title"></h5>
       <br></br>
-<a herf="https://drive.google.com/drive/folders/1CjcX6E-c_eJ80jOKP4WRqnEJVl_N74uI">
+<a href="https://drive.google.com/drive/folders/1CjcX6E-c_eJ80jOKP4WRqnEJVl_N74uI">
       <button class="btn btn-primary" >Get notes</button>
 </a>
     </div>
