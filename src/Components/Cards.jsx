@@ -5,6 +5,9 @@ import notes from '../Images/notes.jpg';
 
 
 function Cards() {
+const popUp=()=>{
+   alert("This feature is under maintenance. Please checkout after sometimes......!")
+}
   return (
     <div>
       <h2 class="display-3 card-head acada"><b>Academics</b></h2>
@@ -14,7 +17,7 @@ function Cards() {
     <img class="card-img-top" src={projects}  alt="Loading..."></img>
     <div class="card-body">
       <h5 class="card-title"></h5>
-      <button class="btn btn-primary">Get projects</button>
+      <button onClick={popUp} class="btn btn-primary">Get projects</button>
     </div>
   </div>
   <div class="card col-lg-3 col-sm-10 col-md-7 p-3 m-4 text-center">
@@ -31,7 +34,7 @@ function Cards() {
     <img class="card-img-top" src={assignments} alt="Loading..."></img>
     <div class="card-body">
       <h5 class="card-title"></h5>
-      <button class="btn btn-primary">Get assignments</button>
+      <button onClick={popUp} class="btn btn-primary">Get assignments</button>
     </div>
   </div>
 </div>
