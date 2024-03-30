@@ -22,7 +22,9 @@ function Cards() {
     <div class="card-body">
       <h5 class="card-title"></h5>
       <br></br>
-      <button class="btn btn-primary onclick={showPopup}" >Get notes</button>
+<a herf="https://drive.google.com/drive/folders/1CjcX6E-c_eJ80jOKP4WRqnEJVl_N74uI">
+      <button class="btn btn-primary" >Get notes</button>
+</a>
     </div>
   </div>
   <div class="card col-lg-3 col-sm-10 col-md-7 p-3 m-4 text-center">
