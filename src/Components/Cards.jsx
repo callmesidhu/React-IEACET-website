@@ -1,5 +1,5 @@
 import React from 'react'
-import assignments from '../Images/assignments.jpg';
+import pyqs from '../Images/pyqs.jpg';
 import projects from '../Images/projects.jpg';
 import notes from '../Images/notes.jpg';
 
@@ -31,10 +31,10 @@ const popUp=()=>{
     </div>
   </div>
   <div class="card col-lg-3 col-sm-10 col-md-7 p-3 m-4 text-center">
-    <img class="card-img-top" src={assignments} alt="Loading..."></img>
+    <img class="card-img-top" src={pyqs} alt="Loading..."></img>
     <div class="card-body">
       <h5 class="card-title"></h5>
-      <button onClick={popUp} class="btn btn-primary">Get assignments</button>
+      <button onClick={popUp} class="btn btn-primary">Get PYQs</button>
     </div>
   </div>
 </div>
