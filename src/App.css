@@ -3,15 +3,14 @@
 body{
   padding:0%;
 }
-.dropdown-menu {
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  transform-origin: top;
+.navbar-toggler {
+  transition: transform 0.3s ease;
 }
 
-.dropdown-menu.show {
-  opacity: 1;
-  transform: scaleY(1);
+.navbar-toggler.collapsed {
+  transform: rotate(0deg);
 }
+
 
 .ani{
   font-family: Georgia, 'Times New Roman', Times, serif;

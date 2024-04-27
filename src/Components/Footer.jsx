@@ -34,7 +34,7 @@ function Footer({setState}) {
                       <li class="social-icon__item"><a class="social-icon__link" href="#cet">
                           <ion-icon name="logo-linkedin"></ion-icon>
                         </a></li>
-                      <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/iea_cet/" target="_blank">
+                      <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/iea_cet/" target="blank">
                           <ion-icon name="logo-instagram"></ion-icon>
                         </a></li>
                       <li class="social-icon__item"><a class="social-icon__link" href="#cet">
@@ -44,7 +44,7 @@ function Footer({setState}) {
                     </ul>
                     
                     <ul class="menu">
-                      <li onClick={() => {setState("Home"); scrollToTop();}}  class="menu__item"><a class="menu__link" href="#" >Home</a></li>
+                      <li onClick={() => {setState("Home"); scrollToTop();}}  class="menu__item"><a class="menu__link" href="#Home" >Home</a></li>
                       <li onClick={Fest} class="menu__item"><a class="menu__link" href="#Team">Fest</a></li>
                       <li onClick={()=>{setState("Team"); scrollToTop();}} class="menu__item"><a class="menu__link" href="#Team">Team</a></li>
                       <li onClick={()=>{setState("Contact"); scrollToTop();}} class="menu__item"><a class="menu__link" href="#Contact">Contact</a></li>

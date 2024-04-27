@@ -12,14 +12,14 @@ function Header({ setState }) {
     <div>
       <div className="header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <a className="navbar-brand p-3 px-4" href="#"><img className="logo" src={logo} alt="IEA-CET Logo" /><b>IEA-CET</b></a>
+          <span className="navbar-brand p-3 px-4"><img className="logo" src={logo} alt="IEA-CET Logo" /><b>IEA-CET</b></span>
           <button className={`navbar-toggler ${isNavOpen ? 'collapsed' : ''}`} type="button" onClick={toggleNav} aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className={`collapse navbar-collapse ${isNavOpen ? 'show' : ''}`} id="navbarNav">
-            <ul className="navbar-nav ml-5">
+            <ul className="navbar-nav mx-5">
               <li className="nav-item active text-white" onClick={() => setState("Home")}>
-                <a className="nav-link" href="#">Home</a>
+                <a className="nav-link" href="#Home">Home</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="https://www.nexeracet.tech/" target="_blank" rel="noopener noreferrer">Fest</a>
