@@ -1,7 +1,8 @@
 import React from 'react'
 import logo from '../Images/cet-logo.jpg';
 
-function Header() {
+function Header({setState}) {
+  
   return (
     <div>
       <div class="header col-sm-12 col-md-12 col-lg-12">
@@ -12,20 +13,20 @@ function Header() {
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item active text-white">
+        <li class="nav-item active text-white" onClick={()=>{setState("Home")}}>
           <a class="nav-link " id="nav-link-text" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://www.nexeracet.tech/" target="_blank">Fest</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#">Team</a>
+        <li class="nav-item" onClick={()=>{setState("Team")}}>
+          <a class="nav-link " href="#Team">Team</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#">About</a>
+        <li class="nav-item" onClick={()=>{setState("Contact")}}>
+          <a class="nav-link" href="#Contact">Contact</a>
+        </li>
+        <li class="nav-item" onClick={()=>setState("About")}>
+          <a class="nav-link " href="#About">About</a>
         </li>
       </ul>
     </div>

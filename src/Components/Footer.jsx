@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Footer() {
+function Footer({setState}) {
   return (
             <div class="bottom-wave">
             <footer class="footer">
@@ -32,10 +32,11 @@ function Footer() {
                     </ul>
                     
                     <ul class="menu">
-                      <li class="menu__item"><a class="menu__link" href="">Home</a></li>
-                      <li class="menu__item"><a class="menu__link" href="#Team">Team</a></li>
-                      <li class="menu__item"><a class="menu__link" href="#About">About</a></li>
-                      <li class="menu__item"><a class="menu__link" href="#Contact">Contact</a></li>
+                      <li onClick={()=>{setState("Home")}} class="menu__item"><a class="menu__link" href="" >Home</a></li>
+                      <li ><a class="menu__link" href="https://www.nexeracet.tech/" target="_blank">Fest</a></li>
+                      <li onClick={()=>{setState("Team")}} class="menu__item"><a class="menu__link" href="#Team">Team</a></li>
+                      <li onClick={()=>{setState("About")}} class="menu__item"><a class="menu__link" href="#About">About</a></li>
+                      <li onClick={()=>{setState("Contact")}} class="menu__item"><a class="menu__link" href="#Contact">Contact</a></li>
                 
                     </ul>
                     <p>&copy; IE Department 2023</p>
