@@ -1,6 +1,18 @@
 import React from 'react'
+import {animateScroll as scroll} from 'react-scroll';
+
+
+function Fest(){
+  window.open("https://www.nexeracet.tech/", "_blank");
+}
 
 function Footer({setState}) {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+ 
+  
+  
   return (
             <div class="bottom-wave">
             <footer class="footer">
@@ -32,11 +44,12 @@ function Footer({setState}) {
                     </ul>
                     
                     <ul class="menu">
-                      <li onClick={()=>{setState("Home")}} class="menu__item"><a class="menu__link" href="" >Home</a></li>
-                      <li ><a class="menu__link" href="https://www.nexeracet.tech/" target="_blank">Fest</a></li>
-                      <li onClick={()=>{setState("Team")}} class="menu__item"><a class="menu__link" href="#Team">Team</a></li>
-                      <li onClick={()=>{setState("About")}} class="menu__item"><a class="menu__link" href="#About">About</a></li>
-                      <li onClick={()=>{setState("Contact")}} class="menu__item"><a class="menu__link" href="#Contact">Contact</a></li>
+                      <li onClick={() => {setState("Home"); scrollToTop();}}  class="menu__item"><a class="menu__link" href="#" >Home</a></li>
+                      <li onClick={Fest} class="menu__item"><a class="menu__link" href="#Team">Fest</a></li>
+                      <li onClick={()=>{setState("Team"); scrollToTop();}} class="menu__item"><a class="menu__link" href="#Team">Team</a></li>
+                      <li onClick={()=>{setState("Contact"); scrollToTop();}} class="menu__item"><a class="menu__link" href="#Contact">Contact</a></li>
+                      <li onClick={()=>{setState("About"); scrollToTop();}} class="menu__item"><a class="menu__link" href="#About">About</a></li>
+                      
                 
                     </ul>
                     <p>&copy; IE Department 2023</p>
