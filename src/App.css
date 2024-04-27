@@ -3,6 +3,16 @@
 body{
   padding:0%;
 }
+.dropdown-menu {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform-origin: top;
+}
+
+.dropdown-menu.show {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
 .ani{
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 2px;
