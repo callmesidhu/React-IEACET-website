@@ -16,16 +16,16 @@ function Header() {
           <a class="nav-link " id="nav-link-text" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Gallery</a>
+          <a class="nav-link" href="#">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Fest</a>
+          <a class="nav-link" href="https://www.nexeracet.tech/" target="_blank">Fest</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#">Schloarships</a>
+          <a class="nav-link " href="#">Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#">projects</a>
+          <a class="nav-link " href="#">About</a>
         </li>
       </ul>
     </div>
