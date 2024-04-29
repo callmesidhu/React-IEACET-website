@@ -203,3 +203,14 @@ body{
   justify-content: center;
   align-items: center;
 }
+
+.team-text{
+  font-family: Serif;
+}
+
+.team-bg{
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 100px #03a9f4;
+  border-radius: 50px;
+ 
+}
