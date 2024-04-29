@@ -31,6 +31,14 @@ function Team() {
       <h4 class="text-center team-text">Web Head</h4>
       </Card.Body>
     </Card>
+    
+    <Card style={{ width: '18rem' }} class="p-1">
+      <Card.Body>
+      <Card.Img variant="top" src={WebHead} />
+      <h3 class="m-2 text-center team-text"><b>S Sidharth</b></h3>
+      <h4 class="text-center team-text">Web Head</h4>
+      </Card.Body>
+    </Card>
     </div>
      </div>
   )
