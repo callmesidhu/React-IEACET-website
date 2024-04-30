@@ -1,18 +1,4 @@
-*
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: consolas;
-}
 
-body
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
 
 .container
 {
@@ -151,12 +137,12 @@ body
 {
   0%, 100%
   {
-    transform: translateY(20px);
+    transform: translateY(30px);
   }
   
   50%
   {
-    transform: translate(-20px);
+    transform: translate(-30px);
   }
 }
 
