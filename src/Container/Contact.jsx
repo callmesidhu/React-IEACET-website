@@ -1,15 +1,24 @@
 import React from 'react'
+import '../Container/Container.css'
 
 
 function Contact() {
   return (
     <div class="my-5 py-2">  
-    <div class="row p-3 m-5 justify-content-around team-bg py-5">
-    <h1 class='display-3 card-head acada text-center team-text mb-5'><b>Contact</b></h1>
-
+    <div class="container">
+  <div class="box">
+    <span></span>
+    <div class="content">
+      <h2>Contact</h2>
+      <p>Sidharth : 9496225620 <br></br> Sundar Pichai : 90485</p>
       
     </div>
-     </div>
+  </div>
+</div>
+  
+      
+    </div>
+    
   )
 }
 
