@@ -31,11 +31,15 @@
   backface-visibility: hidden;
   border-radius: 3px;
   overflow: hidden;
-  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0rem 5px #01b7ff;
+}
+.team-card__side:hover{
+  transition-delay: 0s;
+  box-shadow: 0 0 50px #00b7ff;
 }
 
 .team-card__side--front {
-  background-image: linear-gradient(to right bottom, #03a9f4, #0062f5), url(https://cdn.spacetelescope.org/archives/images/screen/heic0406a.jpg);
+  background-image: linear-gradient(to right bottom, #03a9f4, #0380f4), url(https://cdn.spacetelescope.org/archives/images/screen/heic0406a.jpg);
 }
 
 .team-card__side--back {
