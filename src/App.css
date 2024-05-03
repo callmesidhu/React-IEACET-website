@@ -215,3 +215,21 @@ body{
  
 }
 
+/* ContentTeam.css */
+@media (min-width: 300px) {
+  .rounded-sm-md-lg {
+    border-radius: 12px; /* Adjust the border-radius for sm breakpoint */
+  }
+}
+
+@media (min-width: 600px) {
+  .rounded-sm-md-lg {
+    border-radius: 20px; /* Adjust the border-radius for md breakpoint */
+  }
+}
+
+@media (min-width: 992px) {
+  .rounded-sm-md-lg {
+    border-radius: 30px; /* Adjust the border-radius for lg breakpoint */
+  }
+}

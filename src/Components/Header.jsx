@@ -12,7 +12,7 @@ function Header({ setState }) {
     <div>
       <div className="header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <span className="navbar-brand p-3 px-4"><img className="logo" src={logo} alt="IEA-CET Logo" /><b>IEA-CET</b></span>
+          <a href='https://www.cet.ac.in/' target='_blank' rel="noreferrer" style={{textDecoration:'none'}}><span className="navbar-brand p-3 px-4"><img className="logo" src={logo} alt="IEA-CET Logo" /><b>IEA-CET</b></span></a>
           <button className={`navbar-toggler ${isNavOpen ? 'collapsed' : ''}`} type="button" onClick={toggleNav} aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>

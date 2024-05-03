@@ -12,9 +12,9 @@ import React,{useState} from 'react';
 function App() {
   const [state,setState]=useState("Home");
   var container
-  if(state==="Tea"){
+  if(state==="Team"){
     container=<Team/>
-  }else if(state==="Abou"){
+  }else if(state==="About"){
     container=<About/>
   }else if(state==="Contact"){
     container=<Contact/>
