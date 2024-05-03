@@ -45,10 +45,10 @@ function Team() {
         </Card>
 
         <div className='row justify-content-around'>
-        <div className='col-lg-6 mt-3'>
+        <div className='col-lg-6 col-md-6 mt-3'>
           <PYQTeam />
         </div>
-        <div className='col-lg-6 mt-3'>
+        <div className='col-lg-6 col-md-6 mt-3'>
           <NotesTeam />
         </div>
       </div>
