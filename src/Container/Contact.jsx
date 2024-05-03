@@ -9,7 +9,7 @@ function Contact() {
   <div class="box">
     <span></span>
     <div class="content">
-      <h2>Contact</h2>
+      <h2 class='hed'><b>Contact</b></h2>
       <p><b> Sayan&nbsp; &nbsp; &nbsp;: 7736864964  <br></br> Devan&nbsp; &nbsp; &nbsp;: 9495477301<br></br> Sidharth : 9496225620</b></p>
     </div>
   </div>
