@@ -9,7 +9,7 @@ const popUp=()=>{
    alert("This feature is under maintenance. Please checkout after sometimes......!")
 }
   return (
-    <div>
+    <div class='mx-2 mb-5'>
       <h2 class="display-3 card-head acada"><b>Academics</b></h2>
 
 <div class="card-section row justify-content-center mx-0 px-0">
