@@ -16,7 +16,6 @@ const popUp=()=>{
   <div class="card col-lg-3 col-sm-10 col-md-7 col-xs-10 p-3 m-4 text-center">
     <img class="card-img-top" src={projects}  alt="Loading..."></img>
     <div class="card-body">
-      <h5 class="card-title"></h5>
       <a href="https://drive.google.com/drive/folders/1KWspySJGR4SiMBaTqDAddDDWmD7pvviG" target="_blank" rel="noreferrer">
       <button class="btn btn-primary" >Get Projects</button>
   </a>
@@ -25,7 +24,6 @@ const popUp=()=>{
   <div class="card col-lg-3 col-sm-10 col-md-7 p-3 m-4 text-center">
     <img class="card-img-top" src={notes}  alt="Loading..."></img>
     <div class="card-body">
-      <h5 class="card-title"></h5>
       <br></br>
 <a href="https://drive.google.com/drive/folders/1CjcX6E-c_eJ80jOKP4WRqnEJVl_N74uI" target="_blank" rel="noreferrer">
       <button class="btn btn-primary" >Get notes</button>
@@ -35,7 +33,6 @@ const popUp=()=>{
   <div class="card col-lg-3 col-sm-10 col-md-7 p-3 m-4 text-center">
     <img class="card-img-top" src={pyqs} alt="Loading..."></img>
     <div class="card-body">
-      <h5 class="card-title"></h5>
       <button onClick={popUp} class="btn btn-primary">Get PYQs</button>
     </div>
   </div>
