@@ -24,8 +24,7 @@ function About() {
         <b>About</b>
       </h1>
       <p className='text-light text-center'>
-      Industrial Engineering is a program focused on optimizing systems and processes in various industries. It covers areas such as process optimization, systems integration, quality management, supply chain management, workforce management, operations research, and sustainability. Students learn to apply mathematical, scientific, and engineering principles to design, analyze, and manage complex systems involving people, materials, equipment, energy, and information. Graduates typically pursue careers as process engineers, production managers, supply chain analysts, or quality assurance engineers in industries like manufacturing, healthcare, transportation, and logistics.
-        
+        Industrial Engineering at the College of Engineering Thiruvananthapuram, the pioneering institution in Kerala Technological University, stands as the sole provider of this esteemed course, cementing its status as the first engineering college in Kerala. This program, a sub-branch of mechanical engineering, epitomizes modern industrial operations by integrating engineering principles with management techniques. It empowers students with a holistic grasp of manufacturing processes, supply chain management, operations research, and quality control, fostering analytical, problem-solving, and leadership skills crucial for success in today's competitive industrial landscape. Graduates emerge as sought-after professionals, capable of driving organizational excellence across diverse sectors, from manufacturing to healthcare and technology, positioning them as catalysts for impactful change.        
       </p>
       </div>
       </div>
