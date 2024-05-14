@@ -21,6 +21,7 @@ function PYQTeam() {
                 <li>Huda P &nbsp;</li>
                 <li>Layana Lajudheen &nbsp; </li>
                 <li>Anantha Lakshmi S &nbsp; &nbsp;</li>
+                <li>Noel Denny P &nbsp; </li>
               </ul>
             </div>
           </div>
