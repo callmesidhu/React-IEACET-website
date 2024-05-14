@@ -17,7 +17,7 @@ function NotesTeam() {
               <ul>
                 <li>&nbsp;</li>
                 <li>Jeffrin Mathew V &nbsp;</li>
-                <li>Nodel Denny P &nbsp; </li>
+                <li>Noel Denny P &nbsp; </li>
               </ul>
             </div>
           </div>
