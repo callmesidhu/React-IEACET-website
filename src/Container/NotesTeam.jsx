@@ -16,8 +16,9 @@ function NotesTeam() {
             <div className="team-card__details">
               <ul>
                 <li>&nbsp;</li>
-                <li>Jeffrin Mathew V &nbsp;</li>
+                <li>Muhammed Aslam &nbsp;</li>
                 <li>Noel Denny P &nbsp; </li>
+                <li>Devanand joshy &nbsp;</li>
               </ul>
             </div>
           </div>

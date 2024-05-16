@@ -16,8 +16,8 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #0133FF ; 
-  transition: 2s;
+  background: #01afff ; 
+  transition-duration: 2s;
 }
 
 body{

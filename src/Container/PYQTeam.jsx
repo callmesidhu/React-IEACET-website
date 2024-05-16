@@ -2,6 +2,7 @@ import '../Container/Content.css';
 import React from 'react';
 
 function PYQTeam() {
+
   return (
     <div>
       <div className="artboard p-1">
@@ -14,13 +15,14 @@ function PYQTeam() {
               </h4>
             </div>
             <div className="team-card__details">
-              <ul>
+              <ul style={{overflowY: 'scroll', maxHeight: '260px'}}>
                 <li>Jesmi Shabu &nbsp;</li>
                 <li>Aiswarya R B &nbsp;</li>
                 <li>Jayalakshmi S &nbsp; </li>
                 <li>Huda P &nbsp;</li>
                 <li>Layana Lajudheen &nbsp; </li>
                 <li>Anantha Lakshmi S &nbsp;</li>
+                <li>Jeffrin Mathew V &nbsp; </li>
                 <li>Noel Denny P &nbsp; </li>
               </ul>
             </div>
