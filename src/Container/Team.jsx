@@ -24,7 +24,7 @@ function Team() {
           <Card.Body>
             <Card.Img variant="top" src={WebHead} />
             <h3 class="m-2 text-center team-text"><b>S Sidharth</b></h3>
-            <h4 class="text-center team-text">Web Team - Head</h4>
+            <h4 class="text-center team-text">Web Team</h4>
           </Card.Body>
         </Card>
 
