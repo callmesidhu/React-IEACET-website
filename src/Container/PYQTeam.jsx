@@ -15,12 +15,12 @@ function PYQTeam() {
             </div>
             <div className="team-card__details">
               <ul>
-                <li>&nbsp;</li>
+                <li>Jesmi Shabu &nbsp;</li>
                 <li>Aiswarya R B &nbsp;</li>
                 <li>Jayalakshmi S &nbsp; </li>
                 <li>Huda P &nbsp;</li>
                 <li>Layana Lajudheen &nbsp; </li>
-                <li>Anantha Lakshmi S &nbsp; &nbsp;</li>
+                <li>Anantha Lakshmi S &nbsp;</li>
                 <li>Noel Denny P &nbsp; </li>
               </ul>
             </div>
