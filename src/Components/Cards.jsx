@@ -34,7 +34,7 @@ const popUp=()=>{
     <img class="card-img-top" src={pyqs} alt="Loading..."></img>
     <div class="card-body">
    <a href="https://drive.google.com/drive/folders/1buvAXpNqwQLE1GcB-Fgqq_nfQgHMr8jc" target="_blank" rel="noreferrer">
-      <button onClick={popUp} class="btn btn-primary">Get PYQs</button>
+      <button class="btn btn-primary">Get PYQs</button>
    </a>
     </div>
   </div>
