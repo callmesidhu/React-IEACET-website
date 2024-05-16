@@ -10,7 +10,7 @@ function Contact() {
     <span></span>
     <div class="content">
       <h2 class='hed'><b>Contact</b></h2>
-      <p><b> Sayan&nbsp; &nbsp; &nbsp;: 7736864964  <br></br> Sidharth : 9496225620</b></p>
+      <p><b> Sayaan&nbsp; &nbsp; &nbsp;: 7736864964  <br></br> Sidharth : 9496225620</b></p>
     </div>
   </div>
 </div>
