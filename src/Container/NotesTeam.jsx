@@ -19,6 +19,7 @@ function NotesTeam() {
                 <li>Muhammed Aslam &nbsp;</li>
                 <li>Noel Denny P &nbsp; </li>
                 <li>Devanand joshy &nbsp;</li>
+                <li>Sherin S Saji&nbsp;</li>
               </ul>
             </div>
           </div>
